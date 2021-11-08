@@ -12,7 +12,7 @@ namespace CancioneWebAPI1.Migrations
                 {
                     Nombre = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Autor = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Letra = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Estadodeanimo = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     Enlace = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true)
                 },
                 constraints: table =>
