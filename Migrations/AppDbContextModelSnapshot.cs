@@ -31,7 +31,7 @@ namespace CancioneWebAPI1.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Estadodeanimo")
+                    b.Property<string>("Letra")
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
